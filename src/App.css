@@ -1,3 +1,14 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-color: 230 35% 7%;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +25,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #393E46;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
